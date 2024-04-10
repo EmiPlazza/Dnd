@@ -1,8 +1,6 @@
 import 'react-native-gesture-handler';
 import React, { useEffect } from 'react';
 import Navigation from './Navigation';
-import ComponenteParaLeerArchivoYGuardarEnBDUsuarios from './src/views/cargas/cargaUsuarios';
-import ComponenteParaLeerEncuestas from './src/views/cargas/cargarEncuestas';
 import { MD3LightTheme as DefaultTheme, PaperProvider,} from 'react-native-paper';
 import themeJson from './src/estilos/themes.json';
 
