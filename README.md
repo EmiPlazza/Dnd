@@ -1,26 +1,3 @@
-
-  <title>Comandos Expo y React Native</title>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f2f2f2;
-      margin: 20px;
-    }
-    h1 {
-      color: #333;
-    }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    li {
-      background-color: #fff;
-      margin: 10px 0;
-      padding: 10px;
-      border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-  </style>
 </head>
 <body>
 
