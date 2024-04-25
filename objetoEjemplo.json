@@ -1,0 +1,355 @@
+{
+    "nombre": "Blast Von Eldritch",
+    "raza": "Tiefling",
+
+    "clases": [
+        {
+            "nombre": "Guerrero",
+            "subclase": null,
+            "nivelClase": 2
+        },
+        {
+            "nombre": "Brujo",
+            "subclase": "Hoja Maldita",
+            "nivelClase": 2
+        },
+        {
+            "nombre": "Hechicero",
+            "subclase": "Linaje Draconica",
+            "nivelClase": 3
+        }        
+    ],
+
+    "nivel": 7,
+    "trasfondo": "Fronterizo",
+    "competencia": 3,
+    "inspiracion": 0,
+
+    "estadisticas": {
+        "fuerza": {
+            "valor": 13,
+            "modificador": 1,
+            "tiradaSalvacion": true
+        },
+        "destreza": {
+            "valor": 10,
+            "modificador": 0,
+            "tiradaSalvacion": false
+        },
+        "constitucion": {
+            "valor": 14,
+            "modificador": 2,
+            "tiradaSalvacion": true
+        },
+        "inteligencia": {
+            "valor": 10,
+            "modificador": 0,
+            "tiradaSalvacion": false
+        },
+        "sabiduria": {
+            "valor": 12,
+            "modificador": 1,
+            "tiradaSalvacion": false
+        },
+        "carisma": {
+            "valor": 17,
+            "modificador": 3,
+            "tiradaSalvacion": false
+        }
+    },
+
+    "habilidades": {
+        "acrobacias": {
+            "valor": 0,
+            "estadisticaAsociada": "Destreza",
+            "modificador": 0,
+            "competencia": false,
+            "esExperto": false
+        },
+        "arcanos": {
+            "valor": 0,
+            "estadisticaAsociada": "Inteligencia",
+            "modificador": 0,
+            "competencia": false,
+            "esExperto": false
+        },
+        "atletismo": {
+            "valor": 4,
+            "estadisticaAsociada": "Fuerza",
+            "modificador": 1,
+            "competencia": true,
+            "esExperto": false
+        },
+        "engagno": {
+            "valor": 3,
+            "estadisticaAsociada": "Carisma",
+            "modificador": 3,
+            "competencia": false,
+            "esExperto": false
+        },
+        "historia": {
+            "valor": 0,
+            "estadisticaAsociada": "Inteligencia",
+            "modificador": 0,
+            "competencia": false,
+            "esExperto": false
+        },
+        "interpretacion": {
+            "valor": 3,
+            "estadisticaAsociada": "Carisma",
+            "modificador": 3,
+            "competencia": false,
+            "esExperto": false
+        },
+        "intimidacion": {
+            "valor": 6,
+            "estadisticaAsociada": "Carisma",
+            "modificador": 3,
+            "competencia": true,
+            "esExperto": false
+        },
+        "investigacion": {
+            "valor": 0,
+            "estadisticaAsociada": "Inteligencia",
+            "modificador": 0,
+            "competencia": false,
+            "esExperto": false
+        },
+        "juegoDeManos": {
+            "valor": 0,
+            "estadisticaAsociada": "Destreza",
+            "modificador": 0,
+            "competencia": false,
+            "esExperto": false
+        },
+        "medicina": {
+            "valor": 1,
+            "estadisticaAsociada": "Sabiduria",
+            "modificador": 1,
+            "competencia": false,
+            "esExperto": false
+        },
+        "naturaleza": {
+            "valor": 0,
+            "estadisticaAsociada": "Inteligencia",
+            "modificador": 0,
+            "competencia": false,
+            "esExperto": false
+        },
+        "percepcion": {
+            "valor": 4,
+            "estadisticaAsociada": "Sabiduria",
+            "modificador": 1,
+            "competencia": true,
+            "esExperto": false
+        },
+        "perspicacia": {
+            "valor": 1,
+            "estadisticaAsociada": "Sabiduria",
+            "modificador": 1,
+            "competencia": false,
+            "esExperto": false
+        },
+        "persuasion": {
+            "valor": 3,
+            "estadisticaAsociada": "Carisma",
+            "modificador": 3,
+            "competencia": false,
+            "esExperto": false
+        },
+        "religion": {
+            "valor": 0,
+            "estadisticaAsociada": "Inteligencia",
+            "modificador": 0,
+            "competencia": false,
+            "esExperto": false
+        },
+        "sigilo": {
+            "valor": 0,
+            "estadisticaAsociada": "Destreza",
+            "modificador": 0,
+            "competencia": false,
+            "esExperto": false
+        },
+        "supervivencia": {
+            "valor": 4,
+            "estadisticaAsociada": "Sabiduria",
+            "modificador": 1,
+            "competencia": true,
+            "esExperto": false
+        },
+        "tratoConAnimales": {
+            "valor": 1,
+            "estadisticaAsociada": "Sabiduria",
+            "modificador": 1,
+            "competencia": false,
+            "esExperto": false
+        }
+    },
+
+    "percepcionPasiva": 14,
+
+    "armadura": {
+        "armadura":{
+            "clase": 16,
+            "tipo": "Pesada",
+            "magica": null
+        },
+        
+        "escudo": {
+            "clase": 2,
+            "tipo": "Metal",
+            "magica": null
+        },
+        
+        "competencias": {
+            "sinArmadura": false,
+            "armaduraLigera": true,
+            "armaduraMedia": true,
+            "armaduraPesada": true,
+            "escudo": true
+        },
+
+        "temporal": null,
+        "penalizaciones": null,
+        "modificadorLogro": 1,
+        "modificadorCaracteristica": null,
+        "clase": 19
+    },
+
+    "velocidad": {
+        "caminata": 30,
+        "nado": 15,
+        "vuelo": 0,
+        "escalada": 15,
+        "excavado": 0
+    },
+
+    "puntosDeGolpe": {
+        "maximos": 52,
+        "actuales": 52,
+        "temporales": 0
+    },
+
+    "dadosDeGolpe": [
+        {
+            "clase": "Guerrero",
+            "tipo": 10,
+            "totales": 2,
+            "actuales": 2,
+            "usados": 0
+        },
+        {
+            "clase": "Brujo",
+            "tipo": 8,
+            "totales": 2,
+            "actuales": 2,
+            "usados": 0
+        },
+        {
+            "clase": "Hechicero",
+            "tipo": 6,
+            "totales": 3,
+            "actuales": 3,
+            "usados": 0
+        }        
+    ],
+
+    "salvacionesDeMuerte": {
+        "exitos": 0,
+        "fallos": 0
+    },
+
+    "estados": {
+        "Asustado": false,
+        "Apresado": false,
+        "Aturdido": false,
+        "Cegado": false,
+        "Encantado": false,
+        "Ensordecido": false,
+        "Envenenado": false,
+        "Incapacitado": false,
+        "Inconsciente": false,
+        "Invisible": false,
+        "Neutralizado": false,
+        "Paralizado": false,
+        "Petrificado": false,
+        "Tumbado": false
+    },
+
+    "nivelDeExhaustion": 0,
+
+    "otrasCompetencias": {
+        "herramientas": null,
+        "juegos": null,
+        "vehiculos": null,
+        "instrumentosMusicales": ["Flauta de Bamboo"],
+        "lenguajes": ["Comun", "Infernal"]
+    },
+
+    "resistencias": {
+        "acido": false,
+        "contundente": false,
+        "cortante": false,
+        "electrico": false,
+        "frio": false,
+        "fuego": true,
+        "fuerza": false,
+        "necrotico":  false,
+        "perforante": false,
+        "psiquico": false,
+        "radiante": false,
+        "trueno": false,
+        "veneno": false
+    },
+
+    "descripcion": {
+        "edad": 70,
+        "altura": 6,
+        "peso": 176,
+        "ojos": "Rojos",
+        "piel": "Gris Clara",
+        "cabello": "Gris Oscuro",
+        "alineacion": "Legal Malvado",
+        "fe": "El Oscuro",
+        "ideales": "chachara",
+        "vinculos": "chachara",
+        "defectos": "chachara",
+        "enemigos": "chachara",
+        "aliados": "chachara",
+        "organizaciones": "Hermandad Oscura",
+        "modoDeVida": "chachara",
+        "gastoDiario": "10 monedas de plata",
+        "historia": "chachara",
+        "adicionales":"chachara"
+    },
+
+    "equipamiento": {
+        "bolsas": ["Bolsa de contencion"],
+        "objetos": ["objetosEquipamientoPersonaje/DESARROLLAR"],
+        "objetosMagicos": ["objetosMagicosEquipamientoPersonaje/DESARROLLAR"],
+        "monedas": {
+            "cobre": 0,
+            "plata": 0,
+            "electrum": 0,
+            "oro": 500,
+            "platino": 10
+        },
+        "peso": "pesoEquipamientoPersonaje/DESARROLLAR",
+        "capacidadDeCarga": 195,
+        "sobrecarga": false,
+        "muySobrecargado": false
+    },
+
+    "hechizos": {
+        "conocidos": ["hechizosConocidosPersonaje/DESARROLLAR"],
+        "preparados": ["hechizosPreparadosPersonaje/DESARROLLAR"],
+        "espacios": ["espaciosHechizosPersonaje/DESARROLLAR"],
+        "temporales": ["hechizosTemporalesPersonaje/DESARROLLAR"],
+        "objetos": ["hechizosDeObjetosPersonajE/DESARROLLAR"]
+    },
+
+    "dotes": ["dotesPersonaje"],
+    "caracteristicas": ["caracteristicasPersonaje"]
+
+}
