@@ -1,0 +1,331 @@
+{
+    "nombre": "nombrePersonaje",
+    "raza": "razaPersonaje",
+
+    "clases": [
+        {
+            "nombre": "nombreClasePersonaje",
+            "subclase": "subclasePersonaje",
+            "nivelClase": "nivelClasePersonaje"
+        }        
+    ],
+
+    "nivel": "nivelPersonaje",
+    "trasfondo": "trasfondoPersonaje",
+    "competencia": "competenciaPersonaje",
+    "inspiracion": "inspiracionPersonaje",
+
+    "estadisticas": {
+        "fuerza": {
+            "valor": "valorFuerzaPersonaje",
+            "modificador": "modificadorFuerzaPersonaje",
+            "tiradaSalvacion": "esTiradaSalvacionFuerza"
+        },
+        "destreza": {
+            "valor": "valorDestrezaPersonaje",
+            "modificador": "modificadorDestrezaPersonaje",
+            "tiradaSalvacion": "esTiradaSalvacionDestreza"
+        },
+        "constitucion": {
+            "valor": "valorConstitucionPersonaje",
+            "modificador": "modificadorConstitucionPersonaje",
+            "tiradaSalvacion": "esTiradaSalvacionConstitucion"
+        },
+        "inteligencia": {
+            "valor": "valorInteligenciaPersonaje",
+            "modificador": "modificadorInteligenciaPersonaje",
+            "tiradaSalvacion": "esTiradaSalvacionInteligencia"
+        },
+        "sabiduria": {
+            "valor": "valorSabiduriaPersonaje",
+            "modificador": "modificadorSabiduriaPersonaje",
+            "tiradaSalvacion": "esTiradaSalvacionSabiduria"
+        },
+        "carisma": {
+            "valor": "valorCarismaPersonaje",
+            "modificador": "modificadorCarismaPersonaje",
+            "tiradaSalvacion": "esTiradaSalvacionCarisma"
+        }
+    },
+
+    "habilidades": {
+        "acrobacias": {
+            "valor": "valorAcrobaciasPersonaje",
+            "estadisticaAsociada": "estadisticaAsociadaAcrobacias",
+            "modificador": "valorModificadorAcrobacias",
+            "competencia": "esCompetenteAcrobacias",
+            "esExperto": "esExpertoAcrobacias"
+        },
+        "arcanos": {
+            "valor": "valorArcanosPersonaje",
+            "estadisticaAsociada": "estadisticaAsociadaArcanos",
+            "modificador": "valorModificadorArcanos",
+            "competencia": "esCompetenteArcanos",
+            "esExperto": "esExpertoArcanos"
+        },
+        "atletismo": {
+            "valor": "valorAtletismoPersonaje",
+            "estadisticaAsociada": "estadisticaAsociadaAtletismo",
+            "modificador": "valorModificadorAtletismo",
+            "competencia": "esCompetenteAtletismo",
+            "esExperto": "esExpertoAtletismo"
+        },
+        "engagno": {
+            "valor": "valorEngagnoPersonaje",
+            "estadisticaAsociada": "estadisticaAsociadaEngagno",
+            "modificador": "valorModificadorEngagno",
+            "competencia": "esCompetenteEngagno",
+            "esExperto": "esExpertoEngagno"
+        },
+        "historia": {
+            "valor": "valorHistoriaPersonaje",
+            "estadisticaAsociada": "estadisticaAsociadaHistoria",
+            "modificador": "valorModificadorHistoria",
+            "competencia": "esCompetenteHistoria",
+            "esExperto": "esExpertoHistoria"
+        },
+        "interpretacion": {
+            "valor": "valorInterpretacionPersonaje",
+            "estadisticaAsociada": "estadisticaAsociadaInterpretacion",
+            "modificador": "valorModificadorInterpretacion",
+            "competencia": "esCompetenteInterpretacion",
+            "esExperto": "esExpertoInterpretacion"
+        },
+        "intimidacion": {
+            "valor": "valorIntimidacionPersonaje",
+            "estadisticaAsociada": "estadisticaAsociadaIntimidacion",
+            "modificador": "valorModificadorIntimidacion",
+            "competencia": "esCompetenteIntimidacion",
+            "esExperto": "esExpertoIntimidacion"
+        },
+        "investigacion": {
+            "valor": "valorInvestigacionPersonaje",
+            "estadisticaAsociada": "estadisticaAsociadaInvestigacion",
+            "modificador": "valorModificadorInvestigacion",
+            "competencia": "esCompetenteInvestigacion",
+            "esExperto": "esExpertoInvestigacion"
+        },
+        "juegoDeManos": {
+            "valor": "valorJuegoDeManosPersonaje",
+            "estadisticaAsociada": "estadisticaAsociadaJuegoDeManos",
+            "modificador": "valorModificadorJuegoDeManos",
+            "competencia": "esCompetenteJuegoDeManos",
+            "esExperto": "esExpertoJuegoDeManos"
+        },
+        "medicina": {
+            "valor": "valorMedicinaPersonaje",
+            "estadisticaAsociada": "estadisticaAsociadaMedicina",
+            "modificador": "valorModificadorMedicina",
+            "competencia": "esCompetenteMedicina",
+            "esExperto": "esExpertoMedicina"
+        },
+        "naturaleza": {
+            "valor": "valorNaturalezaPersonaje",
+            "estadisticaAsociada": "estadisticaAsociadaNaturaleza",
+            "modificador": "valorModificadorNaturaleza",
+            "competencia": "esCompetenteNaturaleza",
+            "esExperto": "esExpertoNaturaleza"
+        },
+        "percepcion": {
+            "valor": "valorPercepcionPersonaje",
+            "estadisticaAsociada": "estadisticaAsociadaPercepcion",
+            "modificador": "valorModificadorPercepcion",
+            "competencia": "esCompetentePercepcion",
+            "esExperto": "esExpertoPercepcion"
+        },
+        "perspicacia": {
+            "valor": "valorPerspicaciaPersonaje",
+            "estadisticaAsociada": "estadisticaAsociadaPerspicacia",
+            "modificador": "valorModificadorPerspicacia",
+            "competencia": "esCompetentePerspicacia",
+            "esExperto": "esExpertoPerspicacia"
+        },
+        "persuasion": {
+            "valor": "valorPersuasionPersonaje",
+            "estadisticaAsociada": "estadisticaAsociadaPersuasion",
+            "modificador": "valorModificadorPersuasion",
+            "competencia": "esCompetentePersuasion",
+            "esExperto": "esExpertoPersuasion"
+        },
+        "religion": {
+            "valor": "valorReligionPersonaje",
+            "estadisticaAsociada": "estadisticaAsociadaReligion",
+            "modificador": "valorModificadorReligion",
+            "competencia": "esCompetenteReligion",
+            "esExperto": "esExpertoReligion"
+        },
+        "sigilo": {
+            "valor": "valorSigiloPersonaje",
+            "estadisticaAsociada": "estadisticaAsociadaSigilo",
+            "modificador": "valorModificadorSigilo",
+            "competencia": "esCompetenteSigilo",
+            "esExperto": "esExpertoSigilo"
+        },
+        "supervivencia": {
+            "valor": "valorSupervivenciaPersonaje",
+            "estadisticaAsociada": "estadisticaAsociadaSupervivencia",
+            "modificador": "valorModificadorSupervivencia",
+            "competencia": "esCompetenteSupervivencia",
+            "esExperto": "esExpertoSupervivencia"
+        },
+        "tratoConAnimales": {
+            "valor": "valorTratoConAnimalesPersonaje",
+            "estadisticaAsociada": "estadisticaAsociadaTratoConAnimales",
+            "modificador": "valorModificadorTratoConAnimales",
+            "competencia": "esCompetenteTratoConAnimales",
+            "esExperto": "esExpertoTratoConAnimales"
+        }
+    },
+
+    "percepcionPasiva": "percepcionPasivaPersonaje",
+
+    "armadura": {
+        "armadura":{
+            "clase": "claseArmaduraArmadura",
+            "tipo": "tipoArmadura",
+            "magica": "claseArmaduraMagica"
+        },
+        
+        "escudo": {
+            "clase": "claseArmaduraEscudo",
+            "tipo": "tipoEscudo",
+            "magica": "claseArmaduraMagicaEscudo"
+        },
+        
+        "competencias": {
+            "sinArmadura": "esProficienteSinArmadura",
+            "armaduraLigera": "esProficienteArmaduraLigera",
+            "armaduraMedia": "esProficienteArmaduraMedia",
+            "armaduraPesada": "esProficienteArmaduraPesada",
+            "escudo": "esProficienteEscudo"
+        },
+        
+        "temporal": "claseArmaduraTemporal",
+        "penalizaciones": "penalizacionesArmadura",
+        "modificadorDote": "modificadorClaseArmaduraDote",
+        "modificadorCaracteristica": "modificadorClaseArmaduraCaracteristica",
+        "clase": "claseArmadura"
+    },
+
+    "velocidad": {
+        "caminata": "velocidadCaminata",
+        "nado": "velocidadNado",
+        "vuelo": "velocidadCaminata",
+        "escalada": "velocidadEscalada",
+        "excavado": "velocidadExcavado"
+    },
+
+    "puntosDeGolpe": {
+        "maximos": "puntosDeGolpeMaximos",
+        "actuales": "puntosDeGolpeActuales",
+        "temporales": "puntosDeGolpeTemporales"
+    },
+
+    "dadosDeGolpe": [
+        {
+            "clase": "claseDadosDeGolpe",
+            "tipo": "tipoDeDadosDeGolpe",
+            "totales": "dadosDeGolpeTotales",
+            "actuales": "dadosDeGolpeActuales",
+            "usados": "dadosDeGolpeUsados"
+        }
+    ],
+
+    "salvacionesDeMuerte": {
+        "exitos": "exitosSalvacionesDeMuerte",
+        "fallos": "fallosSalvacionesDeMuerte"
+    },
+
+    "estados": {
+        "Asustado": "estaAsustado",
+        "Apresado": "estaApresado",
+        "Aturdido": "estaAturdido",
+        "Cegado": "estaCegado",
+        "Encantado": "estaEncantado",
+        "Ensordecido": "estaEnsordecido",
+        "Envenenado": "estaEnvenenado",
+        "Incapacitado": "estaIncapacitado",
+        "Inconsciente": "estaInconsciente",
+        "Invisible": "estaInvisible",
+        "Neutralizado": "estaNeutralizado",
+        "Paralizado": "estaParalizado",
+        "Petrificado": "estaPetrificado",
+        "Tumbado": "estaTumbado"
+    },
+
+    "nivelDeExhaustion": "nivelDeExhaustionPersonaje",
+
+    "otrasCompetencias": {
+        "herramientas": ["competenciaHerramientas"],
+        "juegos": ["competenciaJuego"],
+        "vehiculos": ["competenciaVehiculos"],
+        "instrumentosMusicales": ["competenciaInstrumentoMusical"],
+        "idiomas": ["competenciaIdiomas"]
+    },
+
+    "resistencias": {
+        "acido": "esResistenteAcido",
+        "contundente": "esResistenteContundente",
+        "cortante": "esResistenteCortante",
+        "electrico": "esResistenteElectrico",
+        "frio": "esResistenteFrio",
+        "fuego": "esResistenteFuego",
+        "fuerza": "esResistenteFuerza",
+        "necrotico":  "esResistenteNecrotico",
+        "perforante": "esResistentePerforante",
+        "psiquico": "esResistentePsiquico",
+        "radiante": "esResistenteRadiante",
+        "trueno": "esResistenteTrueno",
+        "veneno": "esResistenteVeneno"
+    },
+
+    "descripcion": {
+        "edad": "edadPersonaje",
+        "altura": "alturaPersonaje",
+        "peso": "pesoPersonaje",
+        "ojos": "ojosPersonaje",
+        "piel": "pielPersonaje",
+        "cabello": "cabelloPersonaje",
+        "alineacion": "alineacionPersonaje",
+        "fe": "fePersonaje",
+        "ideales": "idealesPersonaje",
+        "vinculos": "vinculosPersonaje",
+        "defectos": "defectosPersonaje",
+        "enemigos": "enemigosPersonaje",
+        "aliados": "aliadosPersonaje",
+        "organizaciones": "organizacionesPersonaje",
+        "modoDeVida": "modoDeVidaPersonaje",
+        "gastoDiario": "gastoDiarioPersonaje",
+        "historia": "historiaPersonaje",
+        "adicionales":"adicionalesPersonaje"
+    },
+
+    "equipamiento": {
+        "bolsas": ["bolsasEquipamientoPersonaje"],
+        "objetos": ["objetosEquipamientoPersonaje"],
+        "objetosMagicos": ["objetosMagicosEquipamientoPersonaje"],
+        "monedas": {
+            "cobre": "monedasCobreEquipamientoPersonaje",
+            "plata": "monedasPlataEquipamientoPersonaje",
+            "electrum": "monedasElectrumEquipamientoPersonaje",
+            "oro": "monedasOroEquipamientoPersonaje",
+            "platino": "monedasPlatinoEquipamientoPersonaje"
+        },
+        "peso": "pesoEquipamientoPersonaje",
+        "capacidadDeCarga": "capacidadDeCargaEquipamientoPersonaje",
+        "sobrecarga": "estaSobrecargadoEquipamientoPersonaje",
+        "muySobrecargado": "estaMuySobrecargadoEquipamientoPersonaje"
+    },
+
+    "hechizos": {
+        "conocidos": ["hechizosConocidosPersonaje"],
+        "preparados": ["hechizosPreparadosPersonaje"],
+        "espacios": ["espaciosHechizosPersonaje"],
+        "temporales": ["hechizosTemporalesPersonaje"],
+        "objetos": ["hechizosDeObjetosPersonaje"]
+    },
+
+    "dotes": ["dotesPersonaje"],
+    "caracteristicas": ["caracteristicasPersonaje"]
+
+}
