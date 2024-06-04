@@ -1,8 +1,7 @@
 import db from './database';
+import hojasJson from './hojasJson.json';
 
 export const ModelHojaPersonaje = {
-
-
 
   obtenerTodosLosHojas: () => {
     return new Promise((resolve, reject) => {
@@ -45,6 +44,19 @@ export const ModelHojaPersonaje = {
           }
         );
       });
+    });
+  },
+
+  obtenerTodosLosHojasDesdeJson: () => {
+    return new Promise((resolve) => {
+      resolve(hojasJson);
+    });
+  },
+
+  obtenerHojaPorIdDesdeJson: (id) => {
+    return new Promise((resolve) => {
+      const hoja = hojasJson.find(item => item.id === id);
+      resolve(hoja || null);
     });
   },
 };

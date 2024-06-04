@@ -1,4 +1,5 @@
 [{
+    "id": 1,
     "nombre": "Blast Von Eldritch",
     "raza": "Tiefling",
     "clases": [
@@ -332,6 +333,7 @@
     "caracteristicas": ["caracteristicasPersonaje"]
 },
 {
+    "id":2,
     "nombre": "Aramil Shadowleaf",
     "raza": "Elfo",
     "clases": [
@@ -653,6 +655,7 @@
     "caracteristicas": ["Vista aguda", "Oído fino"]
 },
 {
+    "id":3,
     "nombre": "Seraphina Lighteye",
     "raza": "Humano",
     "clases": [
